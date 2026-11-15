@@ -1,7 +1,7 @@
 """Figures and derived numbers of the report, computed from the files in measurements/data/ only (no model, no network).
 
 Run from the repository root: uv run --with matplotlib==3.9.2 --with numpy python analysis/make_figures.py
-Writes figures/fig_reads.pdf, figures/fig_latency.pdf and results/derived_numbers.json.
+Writes figures/fig_reads.pdf, figures/fig_reads.png, figures/fig_latency.pdf and results/derived_numbers.json.
 """
 
 import csv
@@ -43,6 +43,7 @@ def fig_reads() -> None:
         ax.set_title(f"{phase} prompt: {p['output_tokens']} tokens, {p['expert_reads']} reads", loc="left", fontsize=9)
     axes[1].set_xlabel("seconds into the prompt")
     fig.savefig(ROOT / "figures" / "fig_reads.pdf")
+    fig.savefig(ROOT / "figures" / "fig_reads.png", dpi=220)  # shown in the README
 
 
 def fig_latency() -> dict[str, float]:
