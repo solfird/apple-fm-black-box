@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this report, its data or its scripts, please cite the report as below."
+title: "Black-Box Measurements of a Flash-Routed Mixture-of-Experts Language Model on a Mac"
+type: software
+authors:
+  - family-names: Simon
+    given-names: Julien
+    affiliation: Solfird AI
+    orcid: "https://orcid.org/0009-0006-6966-4923"
+version: "1.0"
+license: CC-BY-4.0
+repository-code: "https://github.com/solfird/apple-fm-black-box"
+doi: "10.5281/zenodo.24244064"
+keywords:
+  - mixture of experts
+  - on-device language model
+  - flash storage
+  - expert routing
+  - memory footprint
+  - measurement
+  - Apple Foundation Models
+  - small language models
+preferred-citation:
+  type: report
+  title: "Black-Box Measurements of a Flash-Routed Mixture-of-Experts Language Model on a Mac"
+  authors:
+    - family-names: Simon
+      given-names: Julien
+      affiliation: Solfird AI
+  institution:
+    name: Solfird AI
+  number: "Solfird AI Technical Report 2026-01"
+  doi: "10.5281/zenodo.24244064"
+  year: 2026
+  month: 11

@@ -1,0 +1,24 @@
+{
+ "code": {
+  "reads": 156,
+  "ms": 17.4,
+  "gib_s": 2.46
+ },
+ "math": {
+  "reads": 178,
+  "ms": 14.8,
+  "gib_s": 3.31
+ },
+ "french": {
+  "reads": 228,
+  "ms": 24.4,
+  "gib_s": 2.57
+ },
+ "japanese": {
+  "reads": 152,
+  "ms": 16.6,
+  "gib_s": 2.51
+ },
+ "max_wrapped_offset": 651755520,
+ "bytes_beyond_2_32": 653230080
+}
