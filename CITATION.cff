@@ -11,6 +11,10 @@ version: "1.0"
 license: CC-BY-4.0
 repository-code: "https://github.com/solfird/apple-fm-black-box"
 doi: "10.5281/zenodo.24244064"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24244063"
+    description: "All versions of this report"
 keywords:
   - mixture of experts
   - on-device language model
