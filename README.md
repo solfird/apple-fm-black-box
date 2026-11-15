@@ -7,7 +7,7 @@
 
 Solfird AI Technical Report 2026-01 · November 2026 · Julien Simon
 
-[Report (PDF, 13 pages)](apple-fm-black-box.pdf) · DOI [10.5281/zenodo.24244064](https://doi.org/10.5281/zenodo.24244064) · version 1.0
+[Report (PDF, 13 pages)](apple-fm-black-box.pdf) · DOI [10.5281/zenodo.24244064](https://doi.org/10.5281/zenodo.24244064) (version 1.0) · all versions: [10.5281/zenodo.24244063](https://doi.org/10.5281/zenodo.24244063)
 
 ## The result
 
